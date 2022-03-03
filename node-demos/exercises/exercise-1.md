@@ -24,7 +24,7 @@ node ./index.js one cars 1
 The following command returns one car with an id of 1.
 
 ```bash
-node ./index.js add car "make:Ford,model:T,year:1928,color:blue,price:800"
+node ./index.js add cars "make:Ford,model:T,year:1928,color:blue,price:800"
 ```
 
 

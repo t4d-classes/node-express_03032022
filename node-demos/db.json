@@ -37,6 +37,14 @@
       "year": 2018,
       "color": "red",
       "price": 100000
+    },
+    {
+      "make": "Ford",
+      "model": "T",
+      "year": "1928",
+      "color": "blue",
+      "price": "800",
+      "id": 3
     }
   ]
 }
