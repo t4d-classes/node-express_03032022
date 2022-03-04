@@ -45,6 +45,14 @@
       "color": "blue",
       "price": "800",
       "id": 3
+    },
+    {
+      "make": "Ford",
+      "model": "S",
+      "year": "1928",
+      "color": "blue",
+      "price": "800",
+      "id": 4
     }
   ]
 }

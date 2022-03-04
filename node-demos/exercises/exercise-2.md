@@ -2,6 +2,8 @@
 
 ## Requirements
 
+### Part 1
+
 1. Create a new module named `file-data`. Implement functionality comparable to `http-data` using the file system instead of REST API calls.
 
 2. The data should be stored in a file named `data.json`.
@@ -9,6 +11,8 @@
 3. Replace the `http-data` module in the `data-client` main file with the new `file-data` module.
 
 4. Ensure all operations continue to work.
+
+### Part 2
 
 5. Update the data client to use the following configuration file. Use the `js-yaml` package from NPM.
 

@@ -1,0 +1,4 @@
+config:
+  source: file
+  url: http://localhost:3050
+  file: data.json
