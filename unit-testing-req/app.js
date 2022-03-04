@@ -1,9 +1,11 @@
 const express = require('express');
  
 const app = express();
- 
-app.get('/user', function(req, res) {
+
+function user(req, res) {
   res.status(200).json({ name: 'john' });
-});
+}
+ 
+app.get('/user', user);
 
 module.exports.app = app;
