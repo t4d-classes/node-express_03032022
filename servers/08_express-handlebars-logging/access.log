@@ -1,0 +1,13 @@
+GET / 200 643 - 29.753 ms
+GET /favicon.ico 404 150 - 1.795 ms
+POST /append-color 500 1773 - 25.620 ms
+GET / 304 - - 25.305 ms
+GET / 304 - - 14.677 ms
+POST /append-color 302 46 - 19.520 ms
+GET / 200 745 - 5.008 ms
+POST /remove-color/yellow 302 46 - 2.053 ms
+GET / 200 643 - 3.840 ms
+GET / 200 451 - 17.063 ms
+POST /append-color 302 23 - 16.626 ms
+GET / 200 451 - 17.037 ms
+POST /append-color 302 23 - 24.283 ms
