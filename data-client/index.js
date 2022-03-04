@@ -1,11 +1,15 @@
-import { program } from 'commander';
+//import { program } from 'commander';
+const { program } = require('commander');
 
-// named import
-import { all, one, append as appendResource } from './http-data.js';
-// import * as httpData from './http-data.js';
+// import { all, one, append as appendResource } from './http-data.js';
+const { all, one, append: appendResource } = require('./http-data');
 
-// default import
-// import httpData from './http-data.js';
+// const httpData = require('./http-data');
+// const all = httpData.all;
+// const one = httpData.one;
+// const appendResource = httpData.append;
+// const { all, one, append: appendResource } = httpData;
+
 
 const append = () => {};
 
