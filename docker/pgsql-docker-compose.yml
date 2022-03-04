@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: "postgres:13.3-alpine"
+    ports:
+      - "5432:5432"
+    volumes:
+      - "pgdata:/var/lib/postgresql/data"
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: "trust"
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+  pgadmin:
+    image: "dpage/pgadmin4:5.6"
+    ports:
+      - "5080:80"
+    volumes:
+      - "pgadmin:/var/lib/pgadmin"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "dbuser@pgadmin.local"
+      PGADMIN_DEFAULT_PASSWORD: "dbpass"
+    links:
+      - "postgres"
+volumes:
+  pgdata: {}
+  pgadmin: {}
